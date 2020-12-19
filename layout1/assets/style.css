@@ -151,10 +151,6 @@ body {
     .sections-grid div {
         margin-bottom: 15vmax;
     }
-
-    h1 {
-        
-    }
 }
 
 @media screen and (max-width: 550px) {
@@ -179,10 +175,18 @@ body {
     .sections-grid div {
         margin-bottom: 15vmax;
     }
+
+    #first h1 {
+        font-size: 10vw;
+        margin-left: 8%;
+        
+    }
 }
 
 @media screen and (max-width: 370px) {
     .sections-grid div {
         margin-bottom: 25vmax;
     }
+
+    
 }
