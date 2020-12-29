@@ -1,20 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../assets/img/undraw_barber_3uel.png);
-    background-attachment: fixed;
-    
-}
-
-#content {
-    padding-top: 5%;
 }
 
 .logo {
-    font-family: 'Frijole', cursive;
+    font-family: 'Merriweather', serif;
 }
 
-#navbarNav {
+.logo img {
+    width: 15%;
+    height: 5%;
+}
+
+.navbar-nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.second-col img {
     
 }
+
 
