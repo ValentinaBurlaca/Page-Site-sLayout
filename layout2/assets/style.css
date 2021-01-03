@@ -123,3 +123,9 @@ body {
     color: rgb(255, 255, 255);
     transform: translateY(-7px);
 }
+
+#goal {
+    background: #1D1B26;
+    height: 350px;
+    color:rgb(255, 255, 255);
+} 
