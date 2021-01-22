@@ -177,6 +177,7 @@ body {
 
 #shop {
     margin-top: 5%;
+    height: 500px;
 }
 
 #shop div {
@@ -206,4 +207,8 @@ body {
 
 #sale {
     margin-top: 5%;
+}
+
+#sale img {
+    width: 400px;
 }
