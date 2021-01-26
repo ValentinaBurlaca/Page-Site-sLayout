@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+}
+
+header, section, footer {
+    border: 1px solid red;
+    height: 400px;
+}
+
+nav {
+    border: 1px solid green;
+    position: absolute;
+    width: 1216px;
+    height: 40px;
+    left: 352px;
+    top: 64px;
+}
