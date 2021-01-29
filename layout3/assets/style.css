@@ -1,19 +1,131 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1920px;
 }
 
-header, section, footer {
+section, footer {
     border: 1px solid red;
-    height: 400px;
+    margin-top: 5%;
+    position: relative;
+}
+
+#logo {
+    margin-left: 15%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 nav {
-    border: 1px solid green;
     position: absolute;
-    width: 1216px;
-    height: 40px;
-    left: 352px;
-    top: 64px;
+    width: 40%;
+    height: 5%;
+    left: 30%;
+    top: 5%;
 }
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.klass-btn {
+    margin-left: 82%;
+    margin-top: -5%;
+    position: absolute; 
+}
+
+#logo, .klass-btn {
+    padding-top: 8%;
+    
+}
+
+#Ingenieur {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    margin-left: 5%;
+}
+
+#Ingenieur .text {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+#Ingenieur .mainphoto {
+    box-shadow: -40px 90px 5px whitesmoke;
+    height: 80%;
+    margin-left: 5%;
+}
+
+#Ingenieur button {
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 40%;
+    font-size: 15px;
+    height: 4%;
+}
+
+#Ingenieur .fab img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.fab {
+    position: absolute;
+    margin-left: -33%;
+    margin-top: 2%;
+}
+
+#Unsere {
+    z-index: -1;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#Unsere div {
+    margin-left: 5%;
+}
+
+
+
+#Unsere .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    width: 65%;
+    text-align: left;
+}
+
+.card a {
+    color: orange;
+}
+
+.card p, h4, a {
+    margin-left: 10%;
+}
+
+.card img {
+    width: 312px;
+    height: 333px;
+}
+
