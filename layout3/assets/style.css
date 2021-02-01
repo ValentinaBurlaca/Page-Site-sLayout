@@ -280,3 +280,29 @@ a {
 #Wissenswertes .button-2:hover:before {
     width: 100%;
 }
+
+#Letzten {
+    position: relative;
+}
+
+#Letzten .parts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10%;
+    width: 70%;
+}
+
+#Karriere {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+    position: relative;
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
