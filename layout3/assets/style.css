@@ -4,13 +4,17 @@ body {
 }
 
 section, footer {
-    border: 1px solid red;
+    border: 1px solid rgb(207, 15, 15);
     margin-top: 5%;
     position: relative;
 }
 
 #logo {
     margin-left: 15%;
+}
+
+#logo img {
+    width: 30%
 }
 
 header {
@@ -40,24 +44,32 @@ a {
     color: black;
 }
 
-
-
 .klass-btn {
+    width: 30%;
     margin-left: 82%;
     margin-top: -5%;
     position: absolute; 
 }
 
-#logo, .klass-btn {
-    padding-top: 8%;
+.klass-btn:hover {
     
 }
 
+#logo, .klass-btn {
+    padding-top: 8%;
+}
+
 #Ingenieur {
+    border: none;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 500px;
+    margin-left: 5%;
+}
+
+#Ingenieur .shadow {
+    box-shadow: -40px 80px 5px whitesmoke;
     margin-left: 5%;
 }
 
@@ -68,9 +80,8 @@ a {
 }
 
 #Ingenieur .mainphoto {
-    box-shadow: -40px 90px 5px whitesmoke;
-    height: 80%;
-    margin-left: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 90%;
 }
 
 #Ingenieur button {
@@ -90,7 +101,7 @@ a {
 
 .fab {
     position: absolute;
-    margin-left: -33%;
+    margin-left: -39%;
     margin-top: 2%;
 }
 
@@ -100,28 +111,47 @@ a {
     background-color: whitesmoke;
 }
 
-#Unsere div {
-    margin-left: 5%;
+#Unsere .unsere-text {
+    margin-top: 5%;
+    width: 32%;
+    font-size: 16px;
+    line-height: 28px;
 }
 
-
+#Unsere div {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
 
 #Unsere .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: -25%;
 }
 
 .card {
     width: 65%;
     text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card a {
     color: orange;
+    font-weight: bold;
 }
 
 .card p, h4, a {
     margin-left: 10%;
+}
+
+.card p {
+    color: #929A9F;
+    line-height: 1.5;
+}
+
+.card h4 {
+    color: #263640;
 }
 
 .card img {
@@ -129,3 +159,124 @@ a {
     height: 333px;
 }
 
+#Firmenhistorie {
+    position: relative;
+    margin-top: -30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#Firmenhistorie div {
+    background-color: #263640;
+    color: white;
+    width: 1009px;
+    height: 584px;
+    margin-left: 10%;
+}
+
+#Firmenhistorie .main {
+    box-shadow: -40px 80px 5px whitesmoke;
+}
+
+#Firmenhistorie .inner {
+    width: 40%;
+    height: 412px;
+    margin-left: 98px;
+    margin-top: 98px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inner span {
+    text-transform: uppercase;
+    color: #929A9F;
+}
+
+.floating-button {
+    text-decoration: none;
+    display: inline-block;
+    width: 60%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    margin: 5% 0;
+}
+.floating-button:hover {
+    background: orange;
+    box-shadow: 0 15px 20px rgba(248, 169, 22, 0.664);
+    color: white;
+    transform: translateY(-7px);
+}
+
+#Firmenhistorie img {
+    margin-left: -55%;
+}
+
+#Wissenswertes {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;
+}
+
+#Wissenswertes div {
+    margin-left: 25%;
+}
+
+#Wissenswertes a {
+    width: 17%;
+    margin-top: 20%;
+    margin-left: 68%;
+}
+
+#Wissenswertes div h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 45px;
+
+}
+
+#Wissenswertes div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(170, 167, 167);
+}
+
+#Wissenswertes .button-2 {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #232323;
+}
+#Wissenswertes .button-2 span {
+    position: relative;
+}
+#Wissenswertes .button-2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    background: orange;
+    transition: .3s ease-in-out;
+}
+#Wissenswertes .button-2:hover:before {
+    width: 100%;
+}
