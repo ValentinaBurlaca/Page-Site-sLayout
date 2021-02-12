@@ -1,0 +1,57 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+section {
+    height: 400px;
+    margin-top: 5%;
+}
+
+.features div {
+    margin-top: 5%;
+}
+
+#modern {
+    height: 400px;
+}
+body a {
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.features img {
+    width: 4em;
+}
+
+.features a {
+    color: #0267b8;
+    cursor: pointer;
+}
+
+
+
+#mainLogo {
+    width: 75%;
+    height: auto;
+}
+
+
+
+    @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px)
+#mainLogo {
+    margin-top: 2rem;
+}
